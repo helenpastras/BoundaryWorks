@@ -1,3 +1,12 @@
+import Header from "./Header";
+
 export default function Layout({ children }) {
-  return <div>{children}</div>;
+  return (
+    <>
+      <Header />
+      <main style={{ paddingTop: "2rem" }}>
+        {children}
+      </main>
+    </>
+  );
 }

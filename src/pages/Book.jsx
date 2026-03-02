@@ -1,3 +1,10 @@
-export default function Book() {
-  return <div>Book</div>;
+import Layout from "../components/layout/Layout";
+import Hero from "../components/home/Hero";
+
+export default function Home() {
+  return (
+    <Layout>
+      <Hero />
+    </Layout>
+  );
 }
