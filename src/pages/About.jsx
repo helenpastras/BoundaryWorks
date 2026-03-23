@@ -12,7 +12,7 @@ export default function About() {
             About BoundaryWorks
           </h1>
           <p style={{ color: "#555", marginTop:"1rem", fontSize: "1.1rem"}}>
-            A governance-first studio for teams building AI systems that must be trusted.
+            A governance and ethics studio for teams building AI systems that must be trusted.
           </p>
         </header>
         
@@ -22,9 +22,9 @@ export default function About() {
           Our Philosophy
         </h2>
         <p style={{ color: "#555", lineHeight: "1.6" }}>
-            BoundaryWorks was founded on a simple belief: organizations building high‑impact AI
-            systems deserve calm, principled guidance. We help teams navigate complexity with
-            clarity, structure, and a deep understanding of both governance and product realities.
+            BoundaryWorks exists to help organizations build AI systems that respect people, protect agency, and operate with integrity.  
+            Our work blends ethical reasoning, governance structure, and practical product realities so teams can make decisions that are responsible, transparent, and durable.
+            We believe ethics isn’t an abstract ideal — it’s a daily practice embedded in design choices, data decisions, and leadership intent.
           </p>
         </section>
 
@@ -34,24 +34,40 @@ export default function About() {
             About the Founder
           </h2>
           <p style={{ color: "#555", lineHeight: "1.6" }}>
-            Helen is a product‑driven governance leader with experience across enterprise software,
-            AI systems, and cross‑functional alignment. She blends product fluency, sales
-            enablement, and responsible AI expertise to help organizations build systems that
-            are resilient, compliant, and trusted.
+            Helen is a product‑driven ethics and governance leader with experience across enterprise software, AI systems, and cross‑functional alignment. She brings a grounded, human‑centered approach to evaluating risk, shaping responsible product strategy, and guiding organizations through complex decision landscapes.
+            Her work sits at the intersection of ethical impact, organizational maturity, and real‑world constraints — helping teams build systems that are not only compliant, but genuinely trustworthy.
           </p>
         </section>
 
-                {/* Approach */}
-        <section style={{ marginBottom: "4rem" }}>
-          <h2 style={{ fontSize: "1.75rem", marginBottom: "1rem", color: "#1a1a1a" }}>
-            How We Work
-          </h2>
-          <p style={{ color: "#555", lineHeight: "1.6" }}>
-            Our approach is structured, collaborative, and grounded in real‑world constraints.
-            We partner with teams to build maturity, reduce risk, and create durable governance
-            foundations that scale with the organization.
+      {/* Approach */}
+      <section style={{ marginBottom: "4rem", textAlign: "center" }}>
+        <h2 style={{ fontSize: "1.75rem", marginBottom: "1rem", color: "#1a1a1a" }}>
+          How We Work
+        </h2>
+
+        {/* Inner content block */}
+        <div style={{ 
+          textAlign: "left", 
+          maxWidth: "700px", 
+          margin: "0 auto" 
+        }}>
+          <p style={{ color: "#555", lineHeight: "1.6", marginBottom: "1rem" }}>
+            Our approach is calm, structured, and collaborative. We help teams:
           </p>
-        </section>
+
+          <ul style={{ color: "#555", lineHeight: "1.6", paddingLeft: "1.25rem", marginBottom: "1rem" }}>
+            <li>clarify ethical and governance expectations</li>
+            <li>translate principles into day‑to‑day product decisions</li>
+            <li>build cross‑functional alignment</li>
+            <li>strengthen safeguards around high‑impact systems</li>
+          </ul>
+
+          <p style={{ color: "#555", lineHeight: "1.6" }}>
+            We meet organizations where they are and help them grow with intention.
+          </p>
+        </div>
+      </section>
+
 
         {/* CTA */}
         <section style={{ textAlign: "center", padding: "3rem 0" }}>
